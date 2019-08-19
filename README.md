@@ -1,7 +1,7 @@
 # gl
 
-[![Travis CI](https://travis-ci.org/stackgl/headless-gl.svg?branch=master)](https://travis-ci.org/stackgl/headless-gl)
-[![Appveyor](https://ci.appveyor.com/api/projects/status/github/stackgl/headless-gl?svg=true)](https://ci.appveyor.com/project/mikolalysenko/headless-gl)
+[![Travis CI](https://travis-ci.com/stackgl/headless-gl.svg?branch=master)](https://travis-ci.com/stackgl/headless-gl)
+[![Appveyor](https://ci.appveyor.com/api/projects/status/g5ypwyffmtg1iu83/branch/master?svg=true)](https://ci.appveyor.com/project/dhritzkiv/headless-gl)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 
 `gl` lets you create a WebGL context in [node.js](https://nodejs.org/en/) without making a window or loading a full browser environment.
@@ -136,9 +136,10 @@ In most cases installing `headless-gl` from npm should just work.  However, if y
 * [libxi-dev](http://www.x.org/wiki/)
 * Working and up to date OpenGL drivers
 * [GLEW](http://glew.sourceforge.net/)
+* [pkg-config](https://www.freedesktop.org/wiki/Software/pkg-config/)
 
 ```
-$ sudo apt-get install -y build-essential libxi-dev libglu1-mesa-dev libglew-dev
+$ sudo apt-get install -y build-essential libxi-dev libglu1-mesa-dev libglew-dev pkg-config
 ```
 
 #### Windows
@@ -208,6 +209,9 @@ Only the following for now:
 * [`STACKGL_resize_drawingbuffer`](https://github.com/stackgl/headless-gl#stackgl_resize_drawingbuffer)
 * [`STACKGL_destroy_context`](https://github.com/stackgl/headless-gl#stackgl_destroy_context)
 * [`ANGLE_instanced_arrays`](https://www.khronos.org/registry/webgl/extensions/ANGLE_instanced_arrays/)
+* [`OES_element_index_uint`](https://www.khronos.org/registry/webgl/extensions/OES_element_index_uint/)
+* [`OES_texture_float`](https://www.khronos.org/registry/webgl/extensions/OES_texture_float/)
+* [`WEBGL_draw_buffers`](https://www.khronos.org/registry/webgl/extensions/WEBGL_draw_buffers/)
 
 ### How can I keep up to date with what has changed in headless-gl?
 
