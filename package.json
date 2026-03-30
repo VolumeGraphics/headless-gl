@@ -1,6 +1,6 @@
 {
   "name": "vggl",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Creates a WebGL context without a window",
   "main": "index.js",
   "directories": {
